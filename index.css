@@ -1,3 +1,7 @@
+.container-o{
+    position: relative;
+    color: white;
+}
 .container{
     position: relative;
     color: white;
@@ -23,16 +27,39 @@ a{text-decoration: none;
 color: #000;
 font-size: 1.5rem;}
 
-button {background-color: rgb(0, 174, 255);
-text-align: center
+button {
+    background-color: rgb(110, 197, 238);
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+    size: 5rem
 ;}
 
 .schrift-2{
-    position: absolute;
     top: 25%;
     width: 100%;
-    color: #000;
     text-align: center ;
     font-size: 1.5rem;
+    text-shadow: 3px 0px 2px #060308
     ;}
+
+.absatz{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    object-position: 0 -138px;
+
+}
+
+
+
+
 
