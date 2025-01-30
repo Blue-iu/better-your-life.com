@@ -1,11 +1,8 @@
-.container-o{
-    position: relative;
-    color: white;
-}
 .container{
     position: relative;
     color: white;
 }
+
 .schrift{
     position: absolute;
     top: 25%;
@@ -28,18 +25,19 @@ color: #000;
 font-size: 1.5rem;}
 
 button {
-    background-color: rgb(110, 197, 238);
+    background-color: rgba(0, 100, 0, 0.445);
     text-align: center;
     color: white;
-    border-radius: 10%;
-    size: 5rem
+    border-radius: 30%;
+    padding: 1.5rem;
+    font-size: 1.5rem
 ;}
 
 .schrift-2{
-    top: 25%;
+    top: 50%;
     width: 100%;
     text-align: center ;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-shadow: 3px 0px 2px #060308
     ;}
 
@@ -53,12 +51,20 @@ button {
 }
 img{
     width: 100%;
-    height: 16rem;
+    height: 24rem;
     object-fit: cover;
-    object-position: 0 -138px;
+    object-position: 0 -100px;
 
 }
 
+.logo{ 
+    font-weight: 400;
+    font-family:'Italianno' ;
+    font-size: 2rem;
+
+
+
+}
 
 
 
